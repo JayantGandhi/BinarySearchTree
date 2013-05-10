@@ -1,0 +1,16 @@
+#
+#   Author: Jayant Gandhi
+#
+#   Date: 10/26/2012
+#
+#
+#   Basic makefile to create BinarySearchTree.exe (UNIX)
+#   (It doesn't use dependencies, but it works!)
+#
+#   the INT input file must be the first command line argument
+#   followed by the CHAR input file
+#
+#
+
+all:
+		g++ BST.cpp INT.cpp CHAR.cpp -o BinarySearchTree.exe
